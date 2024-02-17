@@ -3,7 +3,7 @@ const router = express.Router();
 const User = require("./Model/User");
 const Otp = require("./Model/Otp");
 const { body, validationResult } = require("express-validator");
-const bcrypt = require("bcrypt");
+
 const jwt = require("jsonwebtoken");
 const otpGenerator = require("otp-generator");
 
