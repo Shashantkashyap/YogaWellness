@@ -5,7 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import axios from "axios"
 
 function Signup() {
-  const base = "http://localhost:3000/api";
+  const base = "https://yoga-backend-s045.onrender.com/api";
   const [data, setData] = useState({
     phone: "",
     name: "",
