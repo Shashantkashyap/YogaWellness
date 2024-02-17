@@ -6,7 +6,7 @@ import {useNavigate} from"react-router-dom"
 
 function Login() {
   const navigate = useNavigate()
-  const base = "http://localhost:3000/api";
+  const base = "https://yoga-backend-s045.onrender.com/api";
   const [data, setData] = useState({
     email:"",
     otp:""
